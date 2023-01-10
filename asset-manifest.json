@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/bogna-strona/static/css/main.0ff49f98.css",
-    "main.js": "/bogna-strona/static/js/main.640eb489.js",
+    "main.css": "/bogna-strona/static/css/main.11a12ddb.css",
+    "main.js": "/bogna-strona/static/js/main.d799f9db.js",
     "static/js/787.a47728be.chunk.js": "/bogna-strona/static/js/787.a47728be.chunk.js",
+    "static/media/mainBackgroundImage.png": "/bogna-strona/static/media/mainBackgroundImage.7f914cbf4cdbfb37a350.png",
+    "static/media/logo.png": "/bogna-strona/static/media/logo.95ce1467432dba18d2ad.png",
     "index.html": "/bogna-strona/index.html",
-    "main.0ff49f98.css.map": "/bogna-strona/static/css/main.0ff49f98.css.map",
-    "main.640eb489.js.map": "/bogna-strona/static/js/main.640eb489.js.map",
+    "main.11a12ddb.css.map": "/bogna-strona/static/css/main.11a12ddb.css.map",
+    "main.d799f9db.js.map": "/bogna-strona/static/js/main.d799f9db.js.map",
     "787.a47728be.chunk.js.map": "/bogna-strona/static/js/787.a47728be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ff49f98.css",
-    "static/js/main.640eb489.js"
+    "static/css/main.11a12ddb.css",
+    "static/js/main.d799f9db.js"
   ]
 }
