@@ -5,6 +5,26 @@
   background-image: url("/src/assets/mainBackgroundImage.png");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+}
+
+.navigation {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  display: flex;
+}
+
+.navigation > div {
+  background-color: aliceblue;
+  margin: 5px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 18px;
+  flex: auto;
 }
 
 .logoContainer {
@@ -33,8 +53,15 @@
 }
 
 .subtitle {
-  padding: 1rem;
+  padding: 4rem 2rem;
   border: 1px solid grey;
+  color: bisque;
+}
+
+.subsubtitle {
+  padding: 4rem 2rem;
+  border: 1px solid fuchsia;
+  color: bisque;
 }
 
 /* body {
