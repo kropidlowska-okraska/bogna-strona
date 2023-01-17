@@ -1,4 +1,4 @@
-.mainView__container {
+.container {
   background-image: linear-gradient(
       180deg,
       transparent 0%,
@@ -19,7 +19,7 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  .mainView__container {
+  .container {
     background-image: linear-gradient(
         90deg,
         rgba(255, 255, 255, 1) 0%,
@@ -32,12 +32,12 @@
   }
 }
 
-.mainView__content {
+.content {
   padding: 2rem;
 }
 
 @media only screen and (min-width: 1024px) {
-  .mainView__content {
+  .content {
     padding: 5rem;
     width: 50%;
   }
