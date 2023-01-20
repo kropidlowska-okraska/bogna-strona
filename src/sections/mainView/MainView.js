@@ -1,22 +1,22 @@
-import "./mainView.css";
+import styles from "./MainView.module.css";
 import image from "../../assets/logo.png";
 
 const MainView = () => {
   return (
-    <div className="mainView__container">
-      <div className="logo">
+    <div className={styles.container}>
+      <div className={styles.logo}>
         <img src={image} alt={"Logo"} />
       </div>
-      <nav className="navigation">
+      <nav className={styles.navigation}>
         <div>DOGGO</div>
         <div>IPSUM</div>
         <div>DOGGO IPSUM</div>
         <div>D I</div>
         <div>DOGGOIPSUM</div>
       </nav>
-      <div className="mainView__content">
-        <h1 className="title">DOGGO IPSUM</h1>
-        <div className="subtitle">
+      <div className={styles.content}>
+        <h1 className={styles.title}>DOGGO IPSUM</h1>
+        <div className={styles.subtitle}>
           <p>
             Stop it fren fluffer borking doggo tungg sub woofer blep, you are
             doing me the shock yapper wrinkler borkdrive big ol, blep tungg doge

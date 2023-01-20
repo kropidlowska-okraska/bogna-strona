@@ -1,5 +1,5 @@
 import "./App.css";
-import MainView from "./sections/mainView/mainView";
+import MainView from "./sections/mainView/MainView";
 
 function App() {
   return (
