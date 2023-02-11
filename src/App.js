@@ -28,15 +28,25 @@ function App() {
       <AboutMe />
       {/*TODO: Move to separate component (in src/sections/Gallery ) and import here  */}
       <Slider {...settings}>
-        <img src={logo} alt="" className={styles.slider} />
-        <iframe
-          src="https://www.youtube.com/embed/tgbNymZ7vqY"
-          title={"Muppets video"}
-          className={styles.slider}
-        ></iframe>
-        <img src={slider_1} alt="" className={styles.slider} />
-        <img src={slider_2} alt="" className={styles.slider} />
-        <img src={slider_3} alt="" className={styles.slider} />
+        <div className={styles.container}>
+          <img src={logo} alt="" className={styles.slider} />
+        </div>
+        <div className={styles.container}>
+          <iframe
+            src="https://www.youtube.com/embed/tgbNymZ7vqY"
+            title={"Muppets video"}
+            className={styles.slider}
+          ></iframe>
+        </div>
+        <div className={styles.container}>
+          <img src={slider_1} alt="" className={styles.slider} />
+        </div>
+        <div className={styles.container}>
+          <img src={slider_2} alt="" className={styles.slider} />
+        </div>
+        <div className={styles.container}>
+          <img src={slider_3} alt="" className={styles.slider} />
+        </div>
       </Slider>
       <Cooperation />
     </div>
