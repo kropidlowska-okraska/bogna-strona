@@ -8,6 +8,7 @@ import slider_1 from "./assets/slider_1.jpeg";
 import slider_2 from "./assets/slider_2.jpeg";
 import slider_3 from "./assets/slider_3.jpeg";
 import AboutMe from "./sections/aboutMe/AboutMe";
+import Cooperation from "./sections/cooperation/Cooperation";
 
 // TODO: Check with JavaScript if viewport is mobile or desktop
 const isMobile = false;
@@ -37,6 +38,7 @@ function App() {
         <img src={slider_2} alt="" className={styles.slider} />
         <img src={slider_3} alt="" className={styles.slider} />
       </Slider>
+      <Cooperation />
     </div>
   );
 }

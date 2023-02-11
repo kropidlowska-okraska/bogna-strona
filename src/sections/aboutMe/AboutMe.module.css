@@ -37,13 +37,15 @@
 }
 
 .image {
-  margin-right: 5rem;
+  border: 5px solid black;
+  padding: 3px;
 }
 
 .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 5rem;
 }
 
 .paragraph {
