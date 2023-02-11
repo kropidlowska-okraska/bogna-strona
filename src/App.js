@@ -7,6 +7,7 @@ import logo from "./assets/logo.png";
 import slider_1 from "./assets/slider_1.jpeg";
 import slider_2 from "./assets/slider_2.jpeg";
 import slider_3 from "./assets/slider_3.jpeg";
+import AboutMe from "./sections/aboutMe/AboutMe";
 
 // TODO: Check with JavaScript if viewport is mobile or desktop
 const isMobile = false;
@@ -23,6 +24,7 @@ function App() {
   return (
     <div>
       <MainView />
+      <AboutMe />
       {/*TODO: Move to separate component (in src/sections/Gallery ) and import here  */}
       <Slider {...settings}>
         <img src={logo} alt="" className={styles.slider} />
