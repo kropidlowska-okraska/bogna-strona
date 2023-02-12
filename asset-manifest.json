@@ -1,17 +1,32 @@
 {
   "files": {
-    "main.css": "/bogna-strona/static/css/main.b67e672f.css",
-    "main.js": "/bogna-strona/static/js/main.eea3045a.js",
+    "main.css": "/bogna-strona/static/css/main.df56d8de.css",
+    "main.js": "/bogna-strona/static/js/main.33da334c.js",
     "static/js/787.a47728be.chunk.js": "/bogna-strona/static/js/787.a47728be.chunk.js",
     "static/media/mainBackgroundImage.png": "/bogna-strona/static/media/mainBackgroundImage.7f914cbf4cdbfb37a350.png",
-    "static/media/logo.png": "/bogna-strona/static/media/logo.95ce1467432dba18d2ad.png",
+    "static/media/slider_2.jpeg": "/bogna-strona/static/media/slider_2.35c2050b643dd7d454a9.jpeg",
+    "static/media/MontserratThin.otf": "/bogna-strona/static/media/MontserratThin.06edeecdde4c137b0d7a.otf",
+    "static/media/slider_3.jpeg": "/bogna-strona/static/media/slider_3.1b2bc5113bf34ff49d01.jpeg",
+    "static/media/logo1.jpeg": "/bogna-strona/static/media/logo1.88f60c5bbd8eda5700fe.jpeg",
+    "static/media/logo3.jpeg": "/bogna-strona/static/media/logo3.3bc1893afe3a1f6e8ee8.jpeg",
+    "static/media/logo4.jpeg": "/bogna-strona/static/media/logo4.8476c071411a2badcbec.jpeg",
+    "static/media/SalmaalfasansLight.otf": "/bogna-strona/static/media/SalmaalfasansLight.2930a8090f36e7311ccf.otf",
+    "static/media/logo2.jpeg": "/bogna-strona/static/media/logo2.fa881496b739e0c08038.jpeg",
+    "static/media/logo.png": "/bogna-strona/static/media/logo.4b7efb8aa50554260e1c.png",
+    "static/media/slider_1.jpeg": "/bogna-strona/static/media/slider_1.3c18a698272bc1904372.jpeg",
+    "static/media/background_sm.jpeg": "/bogna-strona/static/media/background_sm.451ab51fbfc444c41c80.jpeg",
+    "static/media/dogboss.jpeg": "/bogna-strona/static/media/dogboss.ba94c318ef0b32561a4c.jpeg",
+    "static/media/slick.svg": "/bogna-strona/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/bogna-strona/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/bogna-strona/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/bogna-strona/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/bogna-strona/index.html",
-    "main.b67e672f.css.map": "/bogna-strona/static/css/main.b67e672f.css.map",
-    "main.eea3045a.js.map": "/bogna-strona/static/js/main.eea3045a.js.map",
+    "main.df56d8de.css.map": "/bogna-strona/static/css/main.df56d8de.css.map",
+    "main.33da334c.js.map": "/bogna-strona/static/js/main.33da334c.js.map",
     "787.a47728be.chunk.js.map": "/bogna-strona/static/js/787.a47728be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b67e672f.css",
-    "static/js/main.eea3045a.js"
+    "static/css/main.df56d8de.css",
+    "static/js/main.33da334c.js"
   ]
 }
