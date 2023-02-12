@@ -1,0 +1,53 @@
+.container {
+  padding: 5rem;
+}
+
+.title {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align: left;
+  /*text-shadow: 2px 2px 2px #545775;*/
+  color: #229f8c;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .title {
+    font-size: 4rem;
+  }
+}
+
+.content {
+  display: flex;
+
+  font-family: SalmaalfasansLight, sans-serif;
+  font-size: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
+  /*text-shadow: 1px 1px 1px #545775;*/
+  line-height: 1.5;
+}
+
+@media only screen and (min-width: 1024px) {
+  .content {
+    font-size: 1.5rem;
+  }
+}
+
+.image {
+  border: 5px solid black;
+  padding: 3px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5rem;
+}
+
+.paragraph {
+  margin-bottom: 1rem;
+}
