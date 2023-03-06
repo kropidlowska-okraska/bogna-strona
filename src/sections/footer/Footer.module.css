@@ -1,23 +1,35 @@
+@font-face {
+  font-family: LatoRegular;
+  src: url("/src/assets/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: LatoLight;
+  src: url("/src/assets/Lato-Light.ttf");
+}
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
+  background-color: #101010;
 }
 
 @media only screen and (min-width: 1024px) {
   .container {
     padding: 5rem;
+    background-color: #101010;
   }
 }
 
 .title {
-  font-family: Montserrat, sans-serif;
+  font-family: Georgia;
   font-style: normal;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 2rem;
-  text-align: center;
-  color: #22908c;
+  text-align: left;
+  color: #33392b;
   margin-bottom: 2rem;
 }
 
@@ -28,11 +40,11 @@
 }
 
 .subtitle {
-  font-family: SalmaalfasansLight, sans-serif;
+  font-family: LatoRegular;
   font-size: 1rem;
   text-align: justify;
   text-justify: inter-word;
-  color: #000000;
+  color: #686f5f;
   line-height: 1.5;
   margin: 2rem;
 }
@@ -41,4 +53,14 @@
   .subtitle {
     font-size: 1.5rem;
   }
+}
+
+a:link {
+  color: #33392b;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #431521;
+  text-decoration: none;
 }
