@@ -24,7 +24,7 @@ const AboutMe = () => (
           bork. I am bekom fat very taste wow most angery pupper I have ever
           seen doing me a frighten, tungg stop it fren.
         </div>
-        <div>
+        <div className={styles.paragraph}>
           Blep long doggo what a nice floof bork heckin good boys and girls,
           long doggo heckin angery woofer. Shoober extremely cuuuuuute borking
           doggo thicc, wrinkler borking doggo, aqua doggo pupperino. Heckin good

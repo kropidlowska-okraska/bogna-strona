@@ -1,15 +1,26 @@
+@font-face {
+  font-family: LatoRegular;
+  src: url("/src/assets/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: LatoLight;
+  src: url("/src/assets/Lato-Light.ttf");
+}
+
 .container {
   padding: 5rem;
+  background-color: #101010;
 }
 
 .title {
-  font-family: Montserrat, sans-serif;
+  font-family: Georgia;
   font-style: normal;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 2rem;
   text-align: left;
   /*text-shadow: 2px 2px 2px #545775;*/
-  color: #229f8c;
+  color: #33392b;
   margin-bottom: 2rem;
 }
 
@@ -22,7 +33,7 @@
 .content {
   display: flex;
 
-  font-family: SalmaalfasansLight, sans-serif;
+  font-family: LatoRegular;
   font-size: 1rem;
   text-align: justify;
   text-justify: inter-word;
@@ -50,4 +61,5 @@
 
 .paragraph {
   margin-bottom: 1rem;
+  color: #686f5f;
 }
