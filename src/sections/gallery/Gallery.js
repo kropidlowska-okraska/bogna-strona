@@ -21,23 +21,23 @@ const settings = {
 const Gallery = () => (
   <Slider {...settings}>
     <div className={styles.container}>
-      <img src={logo} alt="" className={styles.slider} />
+      <img src={logo} alt="" className="aspect-square object-cover" />
     </div>
     <div className={styles.container}>
       <iframe
         src="https://www.youtube.com/embed/tgbNymZ7vqY"
         title={"Muppets video"}
-        className={styles.slider}
+        className="aspect-square"
       ></iframe>
     </div>
     <div className={styles.container}>
-      <img src={slider_1} alt="" className={styles.slider} />
+      <img src={slider_1} alt="" className="aspect-square object-cover" />
     </div>
     <div className={styles.container}>
-      <img src={slider_2} alt="" className={styles.slider} />
+      <img src={slider_2} alt="" className="aspect-square object-cover" />
     </div>
     <div className={styles.container}>
-      <img src={slider_3} alt="" className={styles.slider} />
+      <img src={slider_3} alt="" className="aspect-square object-cover" />
     </div>
   </Slider>
 );
