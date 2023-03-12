@@ -16,7 +16,6 @@ const AboutMe = () => (
           frighten, corgo doggo heck.
         </div>
         <div className={styles.paragraph}>
-          {" "}
           Shooberino very hand that feed shibe wow such tempt ruff big ol
           heckin, you are doin me a concern boofers very taste wow. The
           neighborhood pupper shoob clouds fat boi borkdrive, doggo much ruin
