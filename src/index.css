@@ -3,16 +3,21 @@
    License: none (public domain)
 */
 
+@font-face {
+  font-family: LatoRegular;
+  src: url("/src/assets/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: LatoLight;
+  src: url("/src/assets/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: Georgia;
+  src: url("/src/assets/Georgia-Bold.ttf");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("/src/assets/MontserratThin.otf");
-}
-
-@font-face {
-  font-family: "SalmaalfasansLight";
-  src: url("/src/assets/SalmaalfasansLight.otf");
-}
